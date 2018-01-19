@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QA SHEET</title>
+	<link rel = "stylesheet" type="text/css" href="Form.css">
+<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+    document.onkeydown = ShowKeyCode;
+    function ShowKeyCode(evt) {
+        if (evt.keyCode == '123')
+            return false;
+    }
+</script>
+<body oncontextmenu="return false" bgcolor= "#000000">
+<font color="#FFDAB9">
+<script language="javascript">
+<!--
+document.write(
+Date() )
+// -->
+</script>
+<h1><center><B>REPAIR QA SHEET</center></B></h1>
+
+
+<form name="QA SHEET">
+<center>
+
+<p style="border: 3px; border-style:solid;border-color:#FF0000; box-shadow:2px 2px; padding:1em">
+<B>Tech ID <input type="text" name="texter" size="15"></B>
+<B>Bios Version <input type="text" name="texter" size= "5"></B>
+<B>TOL# <input type="text" name="texter" size="15"></B></p>
+</br></br>
+
+<form action="" method="post">
+1. SERIAL # ON TRAVELER MATCHES UNIT</p><input type="radio" name="qa"  value="yes">Yes
+<input type="radio" name="qa" value="no">NO</br></br>
+2. SERIAL # IN BIOS MATCHES UNIT & TRAVELER</p><input type="radio" name="qa1" value="yes">Yes
+<input type="radio" name="qa1" value="no">NO</br></br>
+3. DATE & TIME IS UPDATED</p><input type="radio" name="qa2" value="yes">Yes
+<input type="radio" name="qa2" value="no">NO</br></br>
+4. BIOS IS UPDATED</p><input type="radio" name="qa3" value="yes">Yes</br></br>
+5. PLASTICS HAS CRACKS</p><input type="radio" name="qa4" value="yes">Yes
+<input type="radio" name="qa4" value="no">NO</br></br>
+6. THE FOLLOWING ARE FUNCTIONAL</P>KEYBOARD WORKS</br>
+<input type="radio" name="qa5" value="yes">Yes
+ </br></br>
+TOUCHPAD & LEFT/RIGHT BUTTONS WORK</br></br>
+<input type="radio" name="qa6" value="yes">Yes
+</br></br>
+
+CD ROM WORKS </br></br>
+<input type="radio" name="qa7" value="yes">Yes
+<input type="radio" name="qa7" value="non">non-applicable</br></br>
+
+ ALL USB PORTS WORK</br></br>
+<input type="radio" name="qa8" value="yes">Yes
+ </br></br>
+
+7. BATTERY IS CHARGED OVER 50%</br></br>
+<input type="radio" name="qa9" value="yes">Yes</br></br>
+
+8. UNIT WORKS W/O ADAPTER</br></br>
+<input type="radio" name="qa10" value="yes">Yes
+<input type="radio" name="qa10" value="no">NO</br></br>
+
+9. UNIT HAS ASSET TAG</br></br>
+<input type="radio" name="qa11" value="yes">Yes
+<input type="radio" name="qa11" value="no">No
+<input type="radio"name="qa11" value="no">Not Needed</br></br>
+
+10. UNIT HAS 2 FEET OR MORE</br></br>
+<input type="radio" name="qa12" value="yes">Yes
+</br></br>
+
+11. AFTER REPAIR, UNIT HAS CORRECT SCREWS BACK IN PLACE</br></br>
+<input type="radio" name="qa13" value="yes">Yes
+</br></br>
+
+12. UNIT HAS PASSABLE SCRATCHES</br></br>
+<input type="radio" name="qa14" value="yes">Yes
+<input type="radio" name="qa14" value="no">NO</br></br>
+
+13. UNIT HAS</br></br>
+<input type="checkbox" name="check" value="filter">Filter
+<input type="checkbox" name="check" value="adapter">
+Adapter
+<input type="checkbox" name="check" value="dongle">Dongle
+<input type="checkbox" name="check" value="traveler">Traveler with correct domain</br></br>
+
+<tr>
+<td> <p>Units Completed</p>
+<select name="units completed">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+</select>
+</td></tr>
+<br><br>
+
+<script type="text/javascript">
+function Confirm(form){
+alert("Form Submitted!"); 
+form.submit();
+}
+</script>
+<form name="form" method="post" action="">
+<input type="button" name="SUBMIT" value="SUBMIT" onClick="Confirm(this.form)">
+</center></form>
+</font>
+
+
+</body>
+
+</html>
+
